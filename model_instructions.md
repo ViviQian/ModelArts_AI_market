@@ -89,7 +89,7 @@ Here is a usage example:
     2. Request method: POST  
     3. **Headers parameter description:** 
 
-        |parameter|type|Necessary|value|
+        |Parameter|Type|Necessary|Value|
         |:----|---:|----:|---:|
         |Content-type|STRING|Yes|application/|
         |...|...|...|...|
@@ -102,7 +102,7 @@ Here is a usage example:
     1. Return type: JSON  
     2. **Return parameter description:**
 
-        |parameter|value|
+        |Parameter|Value|
         |:----|---:|
         |acc|acc score|
         |...|...|...|
