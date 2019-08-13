@@ -112,7 +112,7 @@ Here is a usage example:
     ```
     
 
-## Model support
+## Support
 This section will provide support for the model, which can be a GitHub **Issues** part for searching questions and opening new ones. At the same time, you can leave contact information such as email address, WeChat, and phone number so that users' questions can be answered in a timely manner.
 
 Here is a model support example:   
