@@ -1,5 +1,5 @@
 # ResNet50
-"ResNet50" is the first level title of this markdown, you could use your model name instead.
+"ResNet50" is the first level title of this markdown, you could use your model name as it.
 ```
 The usage of markdown title is the following:
 # This is is an H1
@@ -37,7 +37,7 @@ You could create a table to illustrate the general information of the model. The
 
 
 ## Highlights
-This section needs to provide the highlight of this model. You could describe **effectiveness and efficiency** or other advantages.
+This section needs to provide the highlights of the model. You could describe **effectiveness and efficiency** or other advantages.
 ```
 Markdown supports both ordered and unordered lists.
 Unordered lists are marked with *, +, -.
@@ -81,17 +81,17 @@ Here is an example:
 * Supported content types are image/jpeg, image/png, image/bmp.
 * APIs can be used to invoke the model after endpoint creation. [APIs calling](https://support.huaweicloud.com/en-us/ugcall-apig/apig-en-ug-180307057.html). 
 
-Call address: https://example/modelarts-modelapi1  
-Request method: POST  
-**Headers parameter description:** 
+1. Call address: https://example/modelarts-modelapi1  
+2. Request method: POST  
+3. **Headers parameter description:** 
 
 |parameter|type|Necessary|description|
 |:----|---:|----:|---:|
 |Content-type|STRING|Yes|application/|
 |...|...|...|...|
 
-Return type: JSON  
-**Return parameter description:**
+4. Return type: JSON  
+5. **Return parameter description:**
 
 |parameter|description|
 |:----|---:|
@@ -101,7 +101,7 @@ Return type: JSON
 ## Model support
 This section will provide support for the model, which can be a GitHub **Issues** part for searching questions and opening new ones. At the same time, you can leave contact information such as email address, WeChat, and phone number so that users' questions can be answered in a timely manner.
 
-Model support could be like this: 
+Model support could be like this:   
 [Issues part](https://github.com/keras-team/keras-applications/issues) is available. The users can search for questions and open new issues on it. You also can contact us by email address **contactus@gmail.com, wechat contactus123, phone number 12345678912**.
 
 ## Acknowledgement
