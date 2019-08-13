@@ -1,6 +1,10 @@
 # ResNet50
 "ResNet50" is the first level title of this markdown, you could use your model name repalce it.
 ```
+We use markdown code block to write some markdown syntax. The head and tail of a code paragraph are enclosed by '```'. For example:
+'```
+code paragraph
+```'
 The usage of markdown title is the following:
 # This is is an H1
 ## This is an H2
@@ -62,13 +66,13 @@ We benchmark our code thoroughly on two datasets: [ImageNet 2012](http://www.ima
 
 Below are the results: 
 
-| Datasets | Categories|**Metrics: Value** | 
+| Datasets | Categories|**Metrics: Values** | 
 | :----| ---: | -----:|
 | ImageNet 2012 |  image classification          | top-1 err: 24.7%, top-5 err: 7.8% |
 | MS COCO       | object detection(Faster R-CNN) | mAP@.5: 48.4  |
 
 ## Application
-**What scenairos** does the model apply to?  
+Here you need to outline **What application/scenarios** the model applied to.
 
 For example:
 1. research direction：This model is conducive to greatly improve the efficiency of image feature extraction and is suitable for computer vision image classification, object detection, and image segmentation. 
@@ -80,23 +84,33 @@ This section will illustrate the usage information of the model. To enhance the 
 Here is a usage example:
 * Supported content types are image/jpeg, image/png, image/bmp.
 * APIs can be used to invoke the model after endpoint creation. [APIs calling](https://support.huaweicloud.com/en-us/ugcall-apig/apig-en-ug-180307057.html). 
+    * **Request**
+    1. Call address: https://example/modelarts-modelapi1  
+    2. Request method: POST  
+    3. **Headers parameter description:** 
 
-1. Call address: https://example/modelarts-modelapi1  
-2. Request method: POST  
-3. **Headers parameter description:** 
+        |parameter|type|Necessary|value|
+        |:----|---:|----:|---:|
+        |Content-type|STRING|Yes|application/|
+        |...|...|...|...|
+    4. Request example:
+    ```
+    POST https://example/modelarts-modelapi1  
+    ...
+    ```
+    * **Response**
+    1. Return type: JSON  
+    2. **Return parameter description:**
 
-    |parameter|type|Necessary|description|
-    |:----|---:|----:|---:|
-    |Content-type|STRING|Yes|application/|
-    |...|...|...|...|
-
-4. Return type: JSON  
-5. **Return parameter description:**
-
-    |parameter|description|
-    |:----|---:|
-    |acc|acc score|
-    |...|...|...|
+        |parameter|value|
+        |:----|---:|
+        |acc|acc score|
+        |...|...|...|
+    3. Response example:
+    ```
+    {acc:0.85,...}
+    ```
+    
 
 ## Model support
 This section will provide support for the model, which can be a GitHub **Issues** part for searching questions and opening new ones. At the same time, you can leave contact information such as email address, WeChat, and phone number so that users' questions can be answered in a timely manner.
