@@ -1,5 +1,5 @@
 # ResNet50
-"ResNet50" is the first level title of this markdown, you could use your model name as it.
+"ResNet50" is the first level title of this markdown, you could use your model name repalce it.
 ```
 The usage of markdown title is the following:
 # This is is an H1
@@ -10,7 +10,7 @@ The usage of markdown title is the following:
 ## Overview
 Here you will give an overview of the model, which could include but not limited to **network structure, data, applications and performance**.
 
-Here is an example of ResNet50:  
+Here is the overview of ResNet50:  
 ResNet50 is a 50 layer Residual deep convolutional network. It provides intermediate image feature extraction functionality for image classification. It can also provide top-5 category predictions out of 1000 classes on ImageNet datasets. This network is one of the best models that are both highly efficient and accurate. As a result, it also provides high-quality features for various tasks such as object detection, image segmentation.
 ```
 You could create a table to illustrate the general information of the model. The following syntax is probably used：
@@ -54,9 +54,9 @@ Here are the highlights of ResNet50:
 
 
 ## Benchmarking
-In this section, you will describe the **performance** of the model on the benchmark datasets. If the datasets are open source, it will be better to attach links.
+In this section, you need describe the **performance** of the model on the benchmark datasets. If the datasets are open source, it will be better to attach links.
 
-Here is a example of ResNet:  
+Here is the benchmarking of ResNet:  
 We benchmark our code thoroughly on two datasets: [ImageNet 2012](http://www.image-net.org/), [MS COCO](http://cocodataset.org/#home), respectively reply on two different scenario: image classification and object detection. 
 ![image](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1522766480/1_6j34dAOTijqP6HDFnjxPFA_udggex.png)
 
@@ -77,7 +77,7 @@ For example:
 ## Usage
 This section will illustrate the usage information of the model. To enhance the user's sense of use,  it is very important to give a detailed description of how to invoke this model. We recommend that it includes at least supported content types and the API calling method.
 
-Here is an example:
+Here is a usage example:
 * Supported content types are image/jpeg, image/png, image/bmp.
 * APIs can be used to invoke the model after endpoint creation. [APIs calling](https://support.huaweicloud.com/en-us/ugcall-apig/apig-en-ug-180307057.html). 
 
@@ -85,29 +85,29 @@ Here is an example:
 2. Request method: POST  
 3. **Headers parameter description:** 
 
-|parameter|type|Necessary|description|
-|:----|---:|----:|---:|
-|Content-type|STRING|Yes|application/|
-|...|...|...|...|
+    |parameter|type|Necessary|description|
+    |:----|---:|----:|---:|
+    |Content-type|STRING|Yes|application/|
+    |...|...|...|...|
 
 4. Return type: JSON  
 5. **Return parameter description:**
 
-|parameter|description|
-|:----|---:|
-|acc|acc score|
-|...|...|...|
+    |parameter|description|
+    |:----|---:|
+    |acc|acc score|
+    |...|...|...|
 
 ## Model support
 This section will provide support for the model, which can be a GitHub **Issues** part for searching questions and opening new ones. At the same time, you can leave contact information such as email address, WeChat, and phone number so that users' questions can be answered in a timely manner.
 
-Model support could be like this:   
+Here is a model support example:   
 [Issues part](https://github.com/keras-team/keras-applications/issues) is available. The users can search for questions and open new issues on it. You also can contact us by email address **contactus@gmail.com, wechat contactus123, phone number 12345678912**.
 
-## Acknowledgement
+## Acknowledgment
 If you owe any attributions or thanks, include them here along with any citations of this projects. 
 
-Here is an example:  
+Here is an acknowledgment example:  
 We would like to thank Lucy and Tony for valuable discussions. This work was partly supported by National Key R&D Program
 of China (2019Y12345678). During our implementing, we referred the [project](https://github.com/tensorflow/models/blob/master/research/slim/nets/resnet_v1.py) and [paper](https://arxiv.org/abs/1512.03385). 
 
